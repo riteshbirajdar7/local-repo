@@ -13,3 +13,7 @@ except:
     print("error occured") #it is not going to print as error is not there
 else:
     print("All correct") # it is going to occur as there is no error
+
+b=5
+if b< 6:
+    raise Exception("Sorry , we need number greater than 6") # raise is used for customised exeception . just refer it has more features
